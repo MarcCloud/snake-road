@@ -1,0 +1,25 @@
+{
+  "name": "snake-road",
+  "version": "0.0.1",
+  "description": "Isomorphic functional router for browser and nodejs environments",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "babel-tape-runner ./test/**/*_tape.js | faucet"
+  },
+  "keywords": [
+    "Isomorphic",
+    "router",
+    "functional"
+  ],
+  "author": "Marco Romero, Gerardo Garcia",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-eslint": "^4.1.1",
+    "babel-tape-runner": "^1.2.0",
+    "eslint": "^1.3.1",
+    "faucet": "0.0.1",
+    "tape": "^4.2.0"
+  }
+}
